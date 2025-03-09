@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Mihan3000/device_m1721_twrp.git'
+        default: 'https://github.com/Mihan3000/recovery_device_meizu_m1721.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'fox_12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
