@@ -33,15 +33,19 @@ on:
         description: 'DEVICE_NAME'
         required: true
         default: 'marble'
-      MAKEFILE_NAME:
-        description: 'MAKEFILE_NAME'
-        required: true
-        default: 'twrp_marble.mk'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
         default: 'recovery'
-
+        type: choice
+        options:
+          - boot
+          - recovery
+          - vendorboot
+      OF_MAINTAINER:
+        description: '输入维护者名称'
+        required: true
+        default: 'Mihan3000'  
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
