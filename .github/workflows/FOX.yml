@@ -47,7 +47,7 @@ on:
           - recovery
           - vendorboot
       OF_MAINTAINER:
-        description: '输入维护者名称'
+        description: 'OF_MAINTAINER'
         required: true
         default: 'Mihan3000'  
 jobs:
