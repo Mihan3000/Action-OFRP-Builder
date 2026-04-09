@@ -33,6 +33,10 @@ on:
         description: 'DEVICE_NAME'
         required: true
         default: 'marble'
+      MAKEFILE_NAME:
+        description: 'MAKEFILE_NAME'
+        required: true
+        default: 'twrp_marble'  
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
